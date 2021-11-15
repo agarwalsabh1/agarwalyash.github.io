@@ -1,0 +1,215 @@
+<html>
+<head>
+<link rel="stylesheet" href="arvind.css">
+<title>car webpage </title>
+<style>
+<style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header
+        {
+            width: 100vw;
+            height: 100px;
+            background-color: black;
+            color: white;
+         
+
+        }
+        .header .logo
+         { 
+             width:50%;
+             height: 30px;
+            float: left;
+            line-height: 70px;
+            font-size: 25px;
+            
+             
+        }
+       .links
+       {
+           width: 50%;
+           height: 50px;
+           float: right;
+       }
+        li
+        {
+            display: inline-block;
+            margin: 50px;
+            color: white;
+            
+        }
+        .main
+        {
+            width: 100vw;
+            height: 500px;
+            display: flex;
+            padding: 10px; 
+            display: flex;
+            flex-wrap: nowrap;
+            
+            
+        }
+        .box
+        {   float:left;
+            border:3px solid grey;
+            background: white;
+            width: 250px;
+           /* height:400.922px;*/
+            margin:50px 10px 50px 50px;
+            padding: 10px;
+            border-radius: 8px;
+            
+            
+        }
+        .box1
+        {
+            border:3px solid grey;
+            background: white;
+            width: 250px;
+            /* height: 400.922px */
+            margin:50px 10px 50px 10px;
+            padding: 10px;
+            float:left; 
+            border-radius: 8px; 
+        }
+        .box2
+        {
+            border:3px solid grey;
+            background: white;
+            width: 250px;
+            /* height:400.922px; */
+            margin:50px 10px 50px 10px;
+            padding: 10px;
+            float:left;  
+            border-radius: 8px;
+        }
+        .box3 
+        {
+            border:3px solid grey;
+            background: white;
+            width: 250px;
+            /* height: 400.922px; */
+            margin:50px 10px 50px 10px;
+            padding: 10px;
+            float:left;  
+            border-radius: 8px;
+        }
+        .anchor
+        {
+            display: block;
+            margin:5px auto;
+            background-color: red;
+            text-decoration: none;
+            text-align: center;
+            width: 230px;
+            padding :10px;
+            border-radius: 8px;
+            color: white;
+            
+            
+        }
+        a:hover
+        {
+            background-color: blue;
+            
+
+        }
+       
+        img
+        {
+        width:100%;
+        border-radius:8px;
+        margin-bottom: 10px;
+
+
+        }
+        h4
+        {
+            margin:0px 10px;
+            text-align: center;
+        }
+        p
+        {
+            padding:10px;
+            text-align: justify;
+        }
+        h2
+        {
+            color:white;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        h1
+        {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .btn
+        {
+            width: 100%;
+            height:20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            
+        }
+        .footer
+        {
+            
+            width: 100vw;
+            height: 100px;
+            background-color: red;
+            color:red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         
+        }
+        </style>
+</head>
+
+<body  style="width: 100vw; height: 100vh;">
+    <div class="header">
+        <div class="logo"> <font size=7>luxuries  </font><span style="background-color: yellow;color: black; margin: 10px;"><font size=7>car</font></span></div>
+        <div class="links">
+            <ul>
+                <a href="about2.html"> <li>webpage1</li></a>
+                <a href="menu2.html"> <li>webpage2</li></a>
+                <a href="contact2.html"> <li> webpage3 </li></a> 
+				
+               
+ </ul>
+        </div>
+
+    </div>
+	<div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+    </div>
+
+ <font color=purple size=7><h1 align=left color=red>  luxuries car </h1></font>
+<img src="C:\Users\Asus\Documents\Rolls-Royce-Phantom-Privacy-Suite-01.jpg" height=400 width=1300>
+ <font color=purple size=3><p><i> <b> Rolls-Royce Motor Cars Limited is a British luxury automobile maker. Rolls-Royce Motor Cars Limited operates from purpose-built administrative and production facilities opened in 2003 across from the historic Goodwood Circuit in Goodwood, West Sussex, England, United Kingdom. Rolls-Royce Motor Cars Limited is the exclusive manufacturer of Rolls-Royce branded motor cars since 2003.</i></p></font>
+
+<font color=purple size=3><p><i>Although the Rolls-Royce brand has been in use since 1906, the Rolls-Royce Motor Cars subsidiary of BMW AG has no direct relationship to Rolls-Royce-branded vehicles produced prior to 2003 other than being a major engine and other supplier prior to 2003. The Bentley Motors Limited subsidiary of Volkswagen AG is the direct successor to Rolls-Royce Motors and various other predecessor entities that produced Rolls-Royce and Bentley branded cars between the foundation of each company and 2003, when the BMW-controlled entity started producing cars under the Rolls-Royce brand </i></p></font>
+
+
+<font color=purple size=3><p><i>The Rolls-Royce Phantom four-door sedan was the first product offered for sale in 2003. Since then, the company has expanded its product line to include extended wheelbase, two-door coupé, and convertible versions of the Phantom Sedan, as well as the smaller Ghost four-door sedan, Wraith two-door coupé, Dawn Convertible, and the Cullinan SUV.<b></i></font>
+</div>
+    <div class="footer">
+        <h2><i>Made by arvind kumar</i></h2>
+    </div>
+
+</html>
